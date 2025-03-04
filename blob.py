@@ -11,7 +11,7 @@ sensor.set_hmirror(True) # Mirrors the image horizontally
 sensor.skip_frames(time = 2000) # Skip some frames to let the image stabilize
 
 # Define the min/max LAB values we're looking for
-thresholdsApple = (24, 60, 32, 54, 0, 42)           #LAB_value = ([lightness], [green_red], [blue-yellow])     where green/red - A , blue/yellow - B (range of value)
+thresholdsApple = (24, 60, 32, 54, 0, 42)           #LAB_value = ([lightness], A, B)     where green/red - A , blue/yellow - B (range of values)
 thresholdsBanana = (45, 75, 5, -10, 40, 12)
 thresholdsBlueBall = (20, 60, -10, 10, -60, -20)
 thresholdsGreenLeaf = (30, 70, -40, -10, 10, 40)
