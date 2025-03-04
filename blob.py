@@ -6,7 +6,7 @@ import time # Import module for tracking elapsed time
 sensor.reset() # Resets the sensor
 sensor.set_pixformat(sensor.RGB565) # Sets the sensor to RGB
 sensor.set_framesize(sensor.QVGA) # Sets the resolution to 320x240 px
-sensor.set_vflip(True) # Flips the image vertically
+sensor.set_vflip(True) # Flips the image vertically (this is probably what inverts the image. Do we need this line?)
 sensor.set_hmirror(True) # Mirrors the image horizontally
 sensor.skip_frames(time = 2000) # Skip some frames to let the image stabilize
 
