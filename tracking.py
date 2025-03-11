@@ -1,3 +1,5 @@
+#this code is used for tracking objects from a provided video file uisng a YOLO model
+
 import cv2
 from ultralytics import YOLO
 
