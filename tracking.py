@@ -5,7 +5,7 @@ from ultralytics import YOLO
 
 model = YOLO("yolo11n.pt")
 
-video_path = "E:\EE Project\Yoloo\cars.mp4"
+video_path = "E:\EE Project\Yoloo\cars.mp4"    #preferred file can be used here (change this line) 
 Camera = 0 
 
 cap = cv2.VideoCapture(Camera)
