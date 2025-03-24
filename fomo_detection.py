@@ -16,9 +16,9 @@ from vl53l1x import VL53L1X
 
 
 # Wi-Fi 
-ssid = "Conn"
-password = "12345678"
-server_ip = "192.168.154.79"  # The IP address of the Wi-Fi shield
+ssid = "SSID"
+password = "PASSWD"
+server_ip = "IP"  # The IP address of the Wi-Fi shield
 server_port = 80  # The port to communicate with the Arduino
 
 # Connect Nicla Vision to the Wi-Fi network
