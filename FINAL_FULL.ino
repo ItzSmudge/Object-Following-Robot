@@ -4,8 +4,8 @@
 #include "Adafruit_ILI9341.h"
 
 // WiFi Credentials
-char ssid[] = "Conn";
-char pass[] = "12345678";
+char ssid[] = "SSID";
+char pass[] = "PASSWD";
 WiFiServer server(80);
 
 // Motor and Encoder Pins
