@@ -7,9 +7,9 @@ from machine import I2C
 from vl53l1x import VL53L1X
 
 # Wi-Fi settings
-SSID = "Conn"
-PASSWORD = "12345678"
-SERVER_IP = "192.168.154.23"
+SSID = "SSID"
+PASSWORD = "PASSWD"
+SERVER_IP = "IP" #ip address of the wifi shield once configured with the network( run arduino code to get the address) 
 SERVER_PORT = 80
 
 # Connect Nicla Vision to Wi-Fi
