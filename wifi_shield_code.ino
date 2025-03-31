@@ -1,6 +1,7 @@
 #include <SPI.h>
 #include <WiFi101.h>
 
+//Use this code to obtain the uip address of the wifi shield
 // Replace with your network credentials
 char ssid[] = "SSID";
 char pass[] = "PASSWD";
