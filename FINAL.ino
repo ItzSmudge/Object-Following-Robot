@@ -1,7 +1,7 @@
 #include <WiFi101.h>
 
-char ssid[] = "Conn";
-char pass[] = "12345678";
+char ssid[] = "SSID";
+char pass[] = "PASSWD";
 int serverPort = 80;
 WiFiServer server(serverPort);
 
